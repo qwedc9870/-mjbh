@@ -218,11 +218,53 @@
    #form_input label > span  {
       color: #e87e7e;
    }
-    #form_input input.#form_input template {
+    #form_input input, #form_input template {
       margin-bottom: 10px;
-      width: 70&;
+      width: 70px;
       padding: 70px 2%;
       border-radius: 7px;
       border: 2px solid silver;
       color: #4a4a4a;
+    }
+    #form_input input:focus, #form_input textarea:focus {
+        border-color: #333;
+    }
+    .btn{
+       float: left;
+        border-radius: 5px;
+        padding: 5px 9px;
+        font-size: 1.2em;
+        background-color:#ec6550;
+        text-shadow: #454545 0 0 2px;
+        cursor: pointer;
+        color: white;
+        font-family: 'Thin 100', serif;
+    }
+    .btn:hover {
+        background-color: #c15443;
+    }
+    #faq {
+        background-color: #fff;
+        border-top: 2px dashed #e4e3e3;
+        width: 100%;
+        float: left;
+        padding-top: 70px;
+        padding-bottom: 70px;
+     }
+    #faq div {
+        width: 25%;
+        margin-left: 6%;
+        float: left;
+    }
+    #faq .title {
+         font-weight: lighter;
+        color: #a3a0ad;
+        margin-bottom: 20px;
+        font-size: 2.2em;
+    }
+    #faq p {
+        font-family: Arimo, Helvetica, sans-serif;
+        color: #4a4a4a;
+        font-size: 0.95em;
+        margin-bottom: 40px;
     }
